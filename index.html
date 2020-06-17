@@ -20,7 +20,7 @@
             max-width: 190pt;
         }
 
-        #discordthingy {
+        #smalltext {
             margin-top: 5pt;
             font-size: 8pt;
             max-width: 150pt;
@@ -42,6 +42,28 @@
             padding-top: 10pt;
             font-size: 8pt
         }
+
+
+        #ButtonLeft {
+            float: left;
+            padding-top: 10pt;
+            padding-right: 10pt;
+            width: 200pt;
+        }
+
+        #ButtonRight {
+            float: right;
+            padding-top: 10pt;
+            width: 150pt;
+
+        }
+
+        #Buttons {
+            display: flex;
+            flex-wrap: wrap;
+            max-width:
+
+        }
     </style>
 </head>
 
@@ -60,17 +82,32 @@
                 We speak Italian, but english is fine too :) </b>
         </p>
     </div>
-    <div id="Discord">
-        <div id="Discord Button">
-            <a href="https://discord.gg/0bCWPIOAURg4YQZA" type="button" class="btn btn-outline-primary" target="_blank">Join our discord server</a>
+    <div id="Buttons">
+        <div id="ButtonLeft">
+            <div id="DiscordButton">
+                <a href="https://discord.gg/0bCWPIOAURg4YQZA" type="button" class="btn btn-outline-primary" target="_blank">Join our discord server</a>
+
+                <p id="smalltext">
+                    (Discord is a free alternative to TeamSpeak, if you want to join our server and talk with us just click on "connect" and choose a nickname. <br>No need to install anything :)
+                </p>
+            </div>
         </div>
-        <p id="discordthingy">
-            (Discord is a free alternative to TeamSpeak, if you want to join our server and talk with us just click on "connect" and choose a nickname. <br>No need to install anything :)
-        </p>
+        <div></div>
+        <div id="ButtonRight">
+            <div id="FriendsButton">
+                <a href="https://steamcommunity.com/groups/addioandfriends" type="button" class="btn btn-outline-danger" target="_blank">Join our commmunity</a>
+
+                <p id="smalltext">
+                    If you enjoyed playing with us and would like to repeat the experience, join the "A &amp; Friends" community on Steam.
+                </p>
+            </div>
+        </div>
     </div>
+    <div></div>
     <div id="song">
         <hr>
         <a id="song" href="https://www.youtube.com/watch?v=04VRWYZzJFw" target="_blank">listen to "addio sogni di gloria" by Claudio Villa on YouTube</a>
     </div>
+
 
 </body></html>
